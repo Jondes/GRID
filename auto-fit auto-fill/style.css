@@ -1,0 +1,31 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #896;
+    background: #333;
+    margin: 3em;
+}
+
+/* .portfolio {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(autofill, minmax(200px, 1fr));
+    grid-gap: 1/-1;
+} */
+
+.grid-item {
+    background: rgb(63, 83, 197);
+    color: white;
+    text-align: center;
+    padding: 1em 2em;
+    border: 2px solid rgb(231, 225, 231);
+}
+
+.auto-fit {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+}
+
+.auto-fill {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr))
+}
